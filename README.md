@@ -39,7 +39,7 @@ The app starts a local HTTP server on port 8080. You can send POST requests to i
 ```
 
 ## Notes
-- The OpenVPN client is a simplified example and not a full implementation. For production, use a proper OpenVPN library or integration.
+- The OpenVPN client is OpenVPN library integration.
 - The app must be running in the foreground to receive HTTP requests.
 
 ## License
