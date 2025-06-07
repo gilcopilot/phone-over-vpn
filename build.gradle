@@ -1,3 +1,13 @@
+buildscript {
+    repositories {
+        google()       // ✅ REQUIRED
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.0' // ✅ Make sure this version exists
+    }
+}
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
